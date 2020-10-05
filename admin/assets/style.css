@@ -1,0 +1,366 @@
+[id^="toplevel_page_woosalsify"] .dashicons-before > img {
+	width: 19px!important;
+}
+
+.accounts-wrapper .account-item .button-add-account {
+    display: none;
+}
+
+.accounts-wrapper .account-item:last-child .button-add-account {
+    display: inline-block;
+}
+
+.accounts-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.accounts-wrapper * {
+    box-sizing: border-box;
+}
+
+
+.accounts-wrapper .account-item {
+    width: 100%;
+    padding: 15px;
+
+} 
+
+
+.accounts-wrapper .account-item figure{
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    margin: 0;
+    background: #fff;
+}
+
+.accounts-wrapper .account-item button {
+    margin-right: 10px;
+}
+
+.accounts-wrapper .account-item .form-table th,
+.accounts-wrapper .account-item .form-table td {
+	padding: 5px;
+}
+
+.form-table .tb-property {
+    min-width: 400px;
+}
+
+.form-table select {
+    margin: 0;
+}
+
+.account-feed{
+    padding: 10px;
+    padding-left:20px;
+}
+
+.account-feed > label {
+	font-weight: 700;
+}
+
+.form-table .salsify-condition2,
+.form-table .salsify-condition1 {
+    min-width: 250px;
+}
+
+.form-table input[type="text"] {
+    width: 100px;
+}
+
+    .form-table {
+        max-width: 1200px;
+        margin-left: 10px;
+    }
+
+    .form-table tr .add-feed {
+        display: none;
+    }
+
+    .btween-range-value2{
+        visibility: hidden;
+        width: 100px;
+    }
+
+    
+
+    .btw-2 .btween-range-value2{
+        visibility : visible;
+    }
+
+    .form-table tr:last-child .add-feed {
+        display: inline-block;
+    }
+
+    #salsify-progress {
+        width: 100%;
+        background-color: #ccc;
+        max-width: 800px;
+        display: none;
+    }
+
+    #salsify-progress .s-bar {
+        width: 1%;
+    }
+
+    .meter {
+			height: 20px;  /* Can be anything */
+			position: relative;
+			margin: 60px 0 20px 0; /* Just for demo spacing */
+			background: #555;
+			-moz-border-radius: 4px;
+			-webkit-border-radius: 4px;
+			border-radius: 4px;
+			padding: 10px;
+			-webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+			-moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+			box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+		}
+		.meter > span {
+			display: block;
+			height: 100%;
+			   -webkit-border-top-right-radius: 4px;
+			-webkit-border-bottom-right-radius: 4px;
+			       -moz-border-radius-topright: 4px;
+			    -moz-border-radius-bottomright: 4px;
+			           border-top-right-radius: 4px;
+			        border-bottom-right-radius: 4px;
+			    -webkit-border-top-left-radius: 4px;
+			 -webkit-border-bottom-left-radius: 4px;
+			        -moz-border-radius-topleft: 4px;
+			     -moz-border-radius-bottomleft: 4px;
+			            border-top-left-radius: 4px;
+			         border-bottom-left-radius: 4px;
+			background-color: rgb(43,194,83);
+			background-image: -webkit-gradient(
+			  linear,
+			  left bottom,
+			  left top,
+			  color-stop(0, rgb(43,194,83)),
+			  color-stop(1, rgb(84,240,84))
+			 );
+			background-image: -moz-linear-gradient(
+			  center bottom,
+			  rgb(43,194,83) 37%,
+			  rgb(84,240,84) 69%
+			 );
+			-webkit-box-shadow:
+			  inset 0 2px 9px  rgba(255,255,255,0.3),
+			  inset 0 -2px 6px rgba(0,0,0,0.4);
+			-moz-box-shadow:
+			  inset 0 2px 9px  rgba(255,255,255,0.3),
+			  inset 0 -2px 6px rgba(0,0,0,0.4);
+			box-shadow:
+			  inset 0 2px 9px  rgba(255,255,255,0.3),
+			  inset 0 -2px 6px rgba(0,0,0,0.4);
+			position: relative;
+			overflow: hidden;
+		}
+		.meter > span:after, .animate > span > span {
+			content: "";
+			position: absolute;
+			top: 0; left: 0; bottom: 0; right: 0;
+			background-image:
+			   -webkit-gradient(linear, 0 0, 100% 100%,
+			      color-stop(.25, rgba(255, 255, 255, .2)),
+			      color-stop(.25, transparent), color-stop(.5, transparent),
+			      color-stop(.5, rgba(255, 255, 255, .2)),
+			      color-stop(.75, rgba(255, 255, 255, .2)),
+			      color-stop(.75, transparent), to(transparent)
+			   );
+			background-image:
+				-moz-linear-gradient(
+				  -45deg,
+			      rgba(255, 255, 255, .2) 25%,
+			      transparent 25%,
+			      transparent 50%,
+			      rgba(255, 255, 255, .2) 50%,
+			      rgba(255, 255, 255, .2) 75%,
+			      transparent 75%,
+			      transparent
+			   );
+			z-index: 1;
+			-webkit-background-size: 50px 50px;
+			-moz-background-size: 50px 50px;
+			background-size: 50px 50px;
+			-webkit-animation: move 2s linear infinite;
+			-moz-animation: move 2s linear infinite;
+			   -webkit-border-top-right-radius: 8px;
+			-webkit-border-bottom-right-radius: 8px;
+			       -moz-border-radius-topright: 8px;
+			    -moz-border-radius-bottomright: 8px;
+			           border-top-right-radius: 8px;
+			        border-bottom-right-radius: 8px;
+			    -webkit-border-top-left-radius: 20px;
+			 -webkit-border-bottom-left-radius: 20px;
+			        -moz-border-radius-topleft: 20px;
+			     -moz-border-radius-bottomleft: 20px;
+			            border-top-left-radius: 20px;
+			         border-bottom-left-radius: 20px;
+			overflow: hidden;
+		}
+
+.animate > span:after {
+    display: none;
+}
+
+@-webkit-keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+@-moz-keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+.mat-field-wrapper {
+    display: flex;    
+    width: 100%;
+    flex-wrap: wrap;
+	position: relative;
+	align-items: flex-start;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+.mat-field-wrapper * {
+    box-sizing: border-box;
+}
+
+.mat-field-wrapper  .mat-field-products {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 10px;
+
+    position: -webkit-sticky;
+    position: sticky;
+    overflow-y: scroll;
+    height: 90vh;
+    top: 100px;
+}
+
+.mat-field-wrapper  .mat-field-products .mfp-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+.mat-field-wrapper  .mat-field-products .mfp-item .mfp-product-title{
+    max-width: 120px;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+    flex: 0 0 100px;
+    padding-right: 10px;
+    font-weight: 500;
+}
+
+.mat-field-wrapper  .mat-field-products .mfp-sal-field {
+	padding: 5px;
+    background: #ccc;
+    border-radius: 3px;
+    margin: 5px;
+	cursor: pointer;
+	position: relative;
+}
+
+.mat-field-wrapper  .mat-field-products .mfp-sal-field .close {
+	position: absolute;
+	top: -8px;
+	right: -8px;
+}
+
+.mat-field-wrapper  .mat-field-products .mfp-sal-field .close:before {
+	content: 'x';
+	color: #000;
+	font-weight: 300;
+	font-family: Arial, sans-serif;
+	display: block;
+	
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	border-radius: 50%;
+	box-shadow: 0 1px 0 rgba(12,13,14,0.15);
+	
+	background: #fff;
+	
+}
+
+.mat-field-wrapper  .mat-field-products   #poststuff  h2 {
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+.mat-field-wrapper  .mat-field-salsify {
+    flex: 0 0 50%;
+    width: 50%;
+    padding: 10px;
+/*	position: -webkit-sticky;	
+    position: sticky;
+    top: 70px;
+*/
+    box-shadow: rgba(35, 47, 53, 0.09) 0px 2px 8px 0px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.mat-field-wrapper  .mat-field-salsify .mfs-item  {
+    padding: 5px;
+    display: inline-block;
+	cursor: pointer;	
+}
+
+.mat-field-wrapper  .mat-field-salsify .mfs-item > span {    
+    display: inline-block;
+    padding: 5px;
+    border-radius: 3px;
+    background: #ccc;
+    min-width: 100px;
+}
+
+.salsify-sub-title,
+form p.submit  {
+	padding-left: 20px;
+}
+
+.account-action {
+	min-width: 300px;
+}
+
+.account-action > label {
+	line-height: 25px;
+	margin-right: 10px;
+}
+
+.accounts-run-time {
+	margin-left: 15px;
+}
+
+
+.accounts-run-time label {
+	margin-right: 15px;
+}
+
+.accounts-run-time p {
+	font-style: italic;
+    width: 800px;
+}
