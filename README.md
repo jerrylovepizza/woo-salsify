@@ -8,3 +8,15 @@
 - Sync inventories between systems multiple times a day. This feature would be able to deactivated per feed.
 - If a product is no longer in the feed from Salsify it would delete the product.
 - Ability to filter the feed from salsify to limit the products imported by category or status.
+I get to scrap the product data from the salsify app and import the db. 
+I developed php, wordpress, mysql, woocommerce, jquery drag and drop, html5/css3.
+* set the salsify app key
+* match product information (drag and drop filed)
+* setup cron job
+#### skills:
+- [x] php
+- [x] wordpress
+- [x] mysql 
+- [x] woocommerce
+- [x] jquery 
+- [x] html5/css3
