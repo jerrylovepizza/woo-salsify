@@ -20,3 +20,5 @@ I developed php, wordpress, mysql, woocommerce, jquery drag and drop, html5/css3
 - [x] woocommerce
 - [x] jquery 
 - [x] html5/css3
+- [x] javascript
+- [x] css
